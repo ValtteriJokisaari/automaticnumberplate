@@ -1,1 +1,1 @@
-# automaticnumberplate
+# License plate recognition with EasyOCR
