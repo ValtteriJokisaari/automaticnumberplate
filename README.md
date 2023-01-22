@@ -13,7 +13,7 @@ Example images:
 ![image](https://user-images.githubusercontent.com/40422650/213938121-915ce6a2-aa78-4421-93ac-7101f99fcec3.png)
 
 Using a bilateral filter to reduce unwanted noise and smooth out the image without removing edges as the only data we need is the licence plate numbers.
-[1] found that the best settings to use are ```cv2.bilateralFilter(image, 11, 17, 17)``` where (source_image, diameter of pixel, sigmaColor, sigmaSpace)
+[1] Article found that the best settings to use are ```cv2.bilateralFilter(image, 11, 17, 17)``` where (source_image, diameter of pixel, sigmaColor, sigmaSpace)
 
 
 
