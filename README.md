@@ -1,5 +1,7 @@
 # License plate recognition with EasyOCR
 
+![image](https://user-images.githubusercontent.com/40422650/213945718-f7cc2d59-4439-4558-8455-ef0420554f11.png)
+
 
 ## Used the ["Car License Plate Detection" dataset by andrewmvd](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
 Example images:
@@ -18,9 +20,28 @@ Using a bilateral filter to reduce unwanted noise and smooth out the image witho
 Edge detection is easily done by using the OpenCV canny edge method.
 
 ## Contours and license plate location points
-![image](https://user-images.githubusercontent.com/40422650/213940280-6e93a5fa-d6b3-422b-9c7a-1ddb666448c8.png)
+![image](https://user-images.githubusercontent.com/40422650/213945058-362be24c-e4df-4fc7-915f-622b81ed1e1a.png)
 
-![image](https://user-images.githubusercontent.com/40422650/213942685-cdf4f08b-60ac-445d-9993-c05ba334e236.png)
+Checks for contours and sorts the 10 biggest.
+
+Add loop to check the list for contours with a rectangle shape (license plate).
+
+Then mask everything else but the license plate.
+
+![image](https://user-images.githubusercontent.com/40422650/213945112-09a0d33f-ec0e-4427-85a8-578f7cdc37e4.png)
+
+## EasyOCR for text
+
+![image](https://user-images.githubusercontent.com/40422650/213945330-e60f53dd-44e6-4675-abc2-a19402ae89d9.png)
+
+Outputs a list containing the text and accuracy.
+**'AB 44887', 0.980...**
+
+# Final result
+![image](https://user-images.githubusercontent.com/40422650/213945645-90197509-1adb-49a5-a6ac-883a66b318be.png)
+
+
+
 
 
 
