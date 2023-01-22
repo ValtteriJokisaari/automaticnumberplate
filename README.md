@@ -20,6 +20,9 @@ Edge detection is easily done by using the OpenCV canny edge method.
 ## Contours and license plate location points
 ![image](https://user-images.githubusercontent.com/40422650/213940280-6e93a5fa-d6b3-422b-9c7a-1ddb666448c8.png)
 
+![image](https://user-images.githubusercontent.com/40422650/213942685-cdf4f08b-60ac-445d-9993-c05ba334e236.png)
+
+
 
 
 Sources:
