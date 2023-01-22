@@ -1,5 +1,5 @@
 # License plate recognition with EasyOCR
-
+**SOON WILL ADD FEATURE TO DO BATCHES AND GET RESULTS IN TXT FILE**
 ![image](https://user-images.githubusercontent.com/40422650/213945718-f7cc2d59-4439-4558-8455-ef0420554f11.png)
 
 
