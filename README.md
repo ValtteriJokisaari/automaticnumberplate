@@ -15,6 +15,11 @@ Example images:
 Using a bilateral filter to reduce unwanted noise and smooth out the image without removing edges as the only data we need is the licence plate numbers.
 [1] Article found that the best settings to use are ```cv2.bilateralFilter(image, 11, 17, 17)``` where (source_image, diameter of pixel, sigmaColor, sigmaSpace)
 
+Edge detection is easily done by using the OpenCV canny edge method.
+
+## Contours and license plate location points
+![image](https://user-images.githubusercontent.com/40422650/213940280-6e93a5fa-d6b3-422b-9c7a-1ddb666448c8.png)
+
 
 
 Sources:
