@@ -9,6 +9,8 @@
 Example images:
 ![Examples](https://user-images.githubusercontent.com/40422650/213888623-a8072ee8-77ae-43fb-afe7-04b1e3b10f76.png)
 
+## Instructions from article [1]
+
 
 ## Load data and grayscale image
 ![image](https://user-images.githubusercontent.com/40422650/213888665-408791a6-88c7-4511-b472-64b50c857906.png)
